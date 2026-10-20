@@ -163,12 +163,21 @@ The repository is maintained to ensure **long-term accessibility**, **traceabili
 
 ## 📝 Citation
 
-<!-- If you use this repository in your work, please cite the corresponding publication:
-
-> *Sustainable Urban Multimodal Transport Routing: Data and Experimental Resources*  
-> **Swarm and Evolutionary Computation**, Elsevier -->
-
-(citation details will be added upon publication.)
+```py
+@article{BARBOSA2026102512,
+title = {Dijkstra-assisted evolutionary multiobjective optimization for a sustainable user urban multimodal transport routing},
+journal = {Swarm and Evolutionary Computation},
+volume = {108},
+pages = {102512},
+year = {2026},
+issn = {2210-6502},
+doi = {https://doi.org/10.1016/j.swevo.2026.102512},
+url = {https://www.sciencedirect.com/science/article/pii/S2210650226002324},
+author = {Guilherme Barbosa and Pedro José Pereira and Rui Mendes and Paulo Cortez},
+keywords = {Evolutionary multiobjective optimization, Multimodal transport routing, Mobility as a Service (MaaS)},
+abstract = {Assuming the Mobility as a Service (MaaS) paradigm, this paper addresses a sustainable multimodal user routing problem by jointly minimizing total travel time and CO2 emissions in large-scale public transport networks. We propose the enhanced Dijkstra-assisted Non-dominated Sorting Genetic Algorithm II (eD50N-II) method, an evolutionary multiobjective approach that uses the Dijkstra’s (DJ) shortest path algorithm to generate an informed seeding strategy with tailored crossover and mutation operators. The method operates on real-world multimodal multigraphs, supports flexible integer-based solution representations and considers realistic public transport schedules, transfer times, walking connections, and physical effort constraints. An extensive experimental evaluation is conducted on two large metropolitan case studies, Oporto and Lisbon, which are here made publicly available for the first time. Results show that eD50N-II consistently outperforms other evolutionary approaches, including the DJ Seeded NSGA-II (D2N-II, the baseline algorithm), eN-II (an improved NSGA-II variant) and Haq* (an adaptation of a state-of-the-art method), in terms of hypervolume, number of Pareto-optimal solutions, and feasibility with respect to walking distance constraints. As for simpler DJ configurations, such as the weighted D50 variant, they require less computation and may be suitable for time-critical applications where solution quality is less critical. Nevertheless, eD50N-II obtains a richer set of Pareto-optimal solutions under a reasonable computational effort, resulting in the most effective option when high-quality and practically meaningful (human effort-friendly) routes are required. The results also confirm the scalability and robustness of the proposed method across different urban contexts, reinforcing its suitability for real-world MaaS decision support systems.}
+}
+```
 
 ---
 
